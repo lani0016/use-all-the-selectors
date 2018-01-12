@@ -1,1 +1,104 @@
-html{background-color:cream}
+html {
+  font: normal;
+  font: 100%;
+  font-size: 1.5rem;
+  font-family: serif;
+}
+
+/* this is the light beige colour of the body */
+
+body {
+  margin: 0;
+  background-color: #fdf6e3;
+  font-size: .67rem;
+}
+
+/* This is the title fruit factory */
+
+.logo {
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 2rem;
+}
+
+/* these are the navigation options */
+
+header nav {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+/* this is the dark beige color of the main body */
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+/* these are the lightgray headers */
+
+#contents, #favs, #facts, #types {
+  font-family: serif;
+  color: #93a1a1;
+  font-size: 1rem;
+}
+
+/* this is the black main text colour */
+
+main p {
+  color: #000;
+}
+
+/* this is the darkgoldenrod paragraph */
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+/* and this is its white strong text */
+
+div > strong {
+  color: #fff;
+}
+
+/* these are the olivedrab links */
+
+li a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+/* this is the wikipedia fruit dodgerblue highlight */
+
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+/* these are the links under favourite fruit */
+
+ol > li:first-child {
+  color: #719e47;
+}
+
+ol > li:last-child {
+  color: #2aa198;
+}
+
+/* these are types of simple fruit colours */
+
+.types > li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types > li:nth-of-type(3n) {
+  background-color: #d04b16;
+}
+
+/* this is obviously the footer */
+
+footer {
+  font-family: serif;
+  color: #000;
+}
